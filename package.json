@@ -1,0 +1,33 @@
+{
+    "name": "electron-boilerplate",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "start": "npm run build & npm run compose & npm run launch",
+        "build": "tsc",
+        "compose": "nodejs ./scripts/composer.jsx",
+        "launch": "electron .",
+        "pack": "electron-packager . sample --out=dist --arch=ia32 --platform=win32 --version=1.7.5 --overwrite --prune --ignore=\"(dist|gist|scripts|fragments)\""
+    },
+    "build": {
+        "appId": "pasha.medical",
+        "win": {}
+    },
+    "author": {
+	"one" : "Sayam Qazi - dev.qazi@gmil.com",
+	"two" : "Mukarram Pasha - mukarram.pasha96@gmail.com",
+	"three" : "Aqeel Altaf - aqeel.altaf12@gmail.com"
+	
+},
+    "license": "MIT",
+    "dependencies": {
+        "nedb": "^1.8.0"
+    },
+    "devDependencies": {
+        "electron": "^1.7.10",
+        "typescript": "^2.6.2",
+        "@types/nedb": "^1.8.5",
+        "electron-packager": "^9.0.1"
+    }
+}
