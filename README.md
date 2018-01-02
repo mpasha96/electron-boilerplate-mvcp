@@ -35,9 +35,9 @@ You can package your app cross-platform from a single operating system, [electro
 
 # Contributors
 
-**Sayam Qazi** - dev.qazi@gmail.com
+**Sayam Qazi** - github.com/devqazi
 
-**Mukarram Pasha** - mukarram.pasha96@gmail.com
+**Mukarram Pasha** - github.com/mpasha96
 
-**Aqeel Altaf** - aqeel.altaf12@gmail.com
+**Aqeel Altaf** - github.com/aqeelaltaf
 
