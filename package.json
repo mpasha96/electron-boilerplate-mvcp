@@ -28,6 +28,6 @@
         "electron": "^7.2.4",
         "typescript": "^2.6.2",
         "@types/nedb": "^1.8.5",
-        "electron-packager": "^9.0.1"
+        "electron-packager": "^16.0.0"
     }
 }
